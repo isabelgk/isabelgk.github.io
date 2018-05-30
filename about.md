@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Entering her senior year at MIT, Isabel is a double major in chemical engineering and music looking to also complete a minor in CS before graduation. She loves finding problems that seem out of reach and learning how to solve them.
+Entering her senior year at MIT, Isabel is a double major in chemical engineering and music with a minor in CS. She loves finding problems that seem out of reach and learning how to solve them. She hopes to have a career in the software engineering field.
 
 ### Hobbies
 
