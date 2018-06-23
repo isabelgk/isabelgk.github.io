@@ -1,6 +1,8 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
 ---
+
+# a curation of things I make and do ~
+
+
+![splashpage](images/splashimage.jpg){:class="img-responsive" :alt="https://unsplash.com/photos/02f3KC3zKPk"}
