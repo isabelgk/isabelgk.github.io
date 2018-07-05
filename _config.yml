@@ -4,10 +4,10 @@
 name: Isabel Kaspriskie
 
 # Short bio or description (displayed in the header)
-description: isabelgk.com
+description: build and learn
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars0.githubusercontent.com/u/13615209?s=400&u=13b1b590abae00ead4b777f5024b16d0a033e4fb&v=4
+avatar:
 
 #
 # Flags below are optional
@@ -22,17 +22,13 @@ footer-links:
   instagram:
   linkedin: isabel-kaspriskie
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: rss
   twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: user/besillysilly
   googleplus: # anything in your profile username that comes after plus.google.com/
   goodreads: AthenaBeaver
 
-
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-121101984-1
@@ -71,7 +67,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
