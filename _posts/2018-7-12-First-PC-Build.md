@@ -1,15 +1,9 @@
 ---
 layout: post
-title: First PC Build - Installing Arch Linux
+title: Installing Arch Linux
 ---
 
-After getting the physical parts of my first computer together with the help of [pcpartpicker.com](pcpartpicker.com), it was time to install an OS.
-
-From the start, I knew I wanted to install Linux, but I spent a lot of time picking a distro. It's easy enough to switch over (depending on the distros in question, of course). Still, I wanted to make an informed choice. A big motivation for making my own desktop from the ground up was the ability to customize every part. Ubuntu and Manjaro were high on my list especially since they are generally more newbie-friendly installations. Desktop environments and window managers are set right away and many apps are bundled in, too. In the end I chose [Arch](https://wiki.archlinux.org/index.php/Arch_compared_to_other_distributions). Unlike other distros, Arch requires getting your hands dirty, forcing you to interact with a shell from startup. If you don't know what you need and are afraid to poke around and learn about the nitty gritty of your computer, it's not a good time.
-
-Despite the downsides for a new Linux user, I didn't mind a bit of extra work to get a fully customized machine. Furthermore, while I still have a stable, dependable MacBook Pro, it made sense to let myself tinker on the new machine as well.
-
-Once I made my decision, it was time to get started. The best way to install is to follow the most current directions on the [Arch Wiki](https://wiki.archlinux.org/index.php/Installation_guide), but I kept my own notes as I went along.
+When I first installed Arch, I kept some notes for myself for future reference (although the Arch Wiki will always be more up to date).
 
 ## Pre-Installation
 
