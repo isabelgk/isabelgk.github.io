@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
 
 I am a senior at MIT studying chemical engineering and music graduating in June 2019. After graduation I will be working as a software engineer doing image analysis for medical device applications at GE Healthcare.
