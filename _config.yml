@@ -33,8 +33,10 @@ plugins:
 navbar:
   - slug : about
     title: About
-  - slug : blog
-    title: Blog
+  - slug : reading
+    title: reading
+  - slug : computer-Music
+    title: Computers + Music
 
 exclude:
   - "gulp"
