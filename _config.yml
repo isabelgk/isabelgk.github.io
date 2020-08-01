@@ -1,0 +1,72 @@
+# Site settings
+title_left    : "isabelgk"
+title_right   : ""
+description   : "Computers and Music"
+keywords      : ""
+url           : https://isabelgk.com # site url
+baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
+cover         : "" # image uri like logo/cover image for site seo
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source      : ./
+destination : ./_site
+
+# Sass configuration
+sass:
+  sass_dir  : assets/scss
+  style     : compressed # expanded
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  linkedin: isabel-kaspriskie
+  github: isabelgk
+  youtube: besillysilly # channel/<your_long_string> or user/<user-name>
+  email:
+  flickr:
+  instagram:
+  rss: # just type anything here for a working RSS icon
+  twitter: 
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+
+collections_dir: collections
+
+collections:
+  vcv_rack:
+    output: true
+  pd:
+    output: true
+  max_msp:
+    output: true
+
+# Author settings
+author:
+  name     : "Isabel Kaspriskie"
+
+plugins:
+  - jekyll-sitemap
+  - bourbon
+  - jekyll-paginate
+
+exclude:
+  - "gulp"
+  - "node_modules"
+  - "bower"
+  - "bower_components"
+  - "config.rb"
+  - "src"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - ".rvmrc"
+  - ".rbenv-version"
+  - "package.json"
+  - "gulpfile.js"
+  - "README.md"
+  - "Rakefile"
+  - "changelog.md"
+  - "script"
+  - "vendor"
+  - "thinkspace.gemspec"
