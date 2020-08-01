@@ -1,5 +1,5 @@
 # Site settings
-title_left    : "Isabel Kaspriskie"
+title_left    : "isabelgk"
 title_right   : ""
 description   : "Computers and Music"
 keywords      : ""
@@ -20,6 +20,28 @@ sass:
   sass_dir  : assets/scss
   style     : compressed # expanded
 
+# Includes an icon in the footer for each username you enter
+footer-links:
+  linkedin: isabel-kaspriskie
+  github: isabelgk
+  youtube: besillysilly # channel/<your_long_string> or user/<user-name>
+  email:
+  flickr:
+  instagram:
+  rss: # just type anything here for a working RSS icon
+  twitter: 
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+
+collections_dir: collections
+
+collections:
+  vcv_rack:
+    output: true
+  pd:
+    output: true
+  max_msp:
+    output: true
+
 # Author settings
 author:
   name     : "Isabel Kaspriskie"
@@ -28,15 +50,6 @@ plugins:
   - jekyll-sitemap
   - bourbon
   - jekyll-paginate
-
-# navbar pages
-navbar:
-  - slug : about
-    title: About
-  - slug : reading
-    title: reading
-  - slug : computer-Music
-    title: Computers + Music
 
 exclude:
   - "gulp"

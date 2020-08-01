@@ -17,6 +17,7 @@ h6 {
   line-height: $heading-line-height;
   margin: $small-spacing 0 $small-spacing 0;
   font-weight: 700;
+  color: $tn-green;
 }
 
 h1 {
@@ -75,6 +76,7 @@ picture {
   max-width: 100%;
 }
 
+
 blockquote {
   padding: $base-spacing 0 $base-spacing $base-spacing;
   margin: $base-spacing 0;
@@ -117,6 +119,7 @@ pre {
 
 strong {
   font-weight: bold;
+  color: $tn-green;
 }
 
 em {

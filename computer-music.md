@@ -1,24 +1,21 @@
 ---
-layout: default
-title: Computers and Music
+layout: post
+title: Digital Audio
 ---
-<section class="post-list">
-    <div class="container">
-      {% for post in site.posts %}
-        {% unless post.next %}
-          <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
-        {% else %}
-          {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-          {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-          {% if year != nyear %}
-            <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
-          {% endif %}
-        {% endunless %}
-        <article class="post-item">
-          <span class="post-meta date-label">{{ post.date | date: "%b %d" }}</span>
-          <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></div>
-        </article>
-      {% endfor %}
-    </div>
-  
-  </section>
+
+I am interested in:
+- digital signal processing (filters and oscillators)
+- software synthesizers
+- interactive and stochastic melodic and harmonic generators
+
+Collected here is a growing list of tools and applications I've developed.
+
+## VCV Rack
+
+[VCV Rack](https://vcvrack.com/) is an virtual modular synthesizer environment with a strong open-source community. I contribute modules to the
+plugin library, and you can check out the [source code](https://github.com/IggyLabs/IggyLabsModules), read the [manuals](https://github.com/IggyLabs/IggyLabsModulesManual), 
+or [subscribe](https://library.vcvrack.com/?brand=iggy.labs) in the VCV Library to try them out yourself.
+
+## Max4Live
+
+I've made a handful of Max4Live devices for Ableton Live available for free. You can find them at my [maxforlive.com](https://maxforlive.com/profile/user/iggylabs) page.
