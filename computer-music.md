@@ -18,4 +18,4 @@ or [subscribe](https://library.vcvrack.com/?brand=iggy.labs) in the VCV Library 
 
 ## Max4Live
 
-I've made a handful of Max4Live devices for Ableton Live available for free. You can find them at my [maxforlive.com](https://maxforlive.com/profile/user/iggylabs) page.
+I've made a handful of Max4Live devices for Ableton Live available for free. You can find them at my [maxforlive.com](https://maxforlive.com/profile/user/iggylabs) page. I am in the process of migrating devices to GitHub as well.
